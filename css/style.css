@@ -9,4 +9,17 @@ body {
 	margin: 3.5em auto;
 	padding: 2em;
 	border: 1px solid #988;
+	border-radius: 1em;
+	}
+header hgroup {
+	text-align:center;
+}
+nav p {margin: 0 1em -2em 1em;}
+nav ul {
+	width:20em;
+	height:5em;}
+nav ul li {
+	float:right;
+	margin: 0 1em;
+	list-style: none;
 	}
