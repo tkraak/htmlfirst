@@ -5,7 +5,7 @@ body {
 	background-color:#EEE; 
 	color:#544;
 	width:70%;
-	margin: 2em auto;
+	margin: auto;
 	padding: 2em;
 	}
 	
@@ -63,6 +63,7 @@ nav ul li {
 
 article.main {
 	height:30em;
+	background: url("C:\Users\Alpha\Documents\betamore\projects\htmlfirst\assets\strange_bullseyes.png");
 	border: 1px dotted #D9D1CF;
 	clear:both;
 	}
