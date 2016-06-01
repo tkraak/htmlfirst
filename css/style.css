@@ -9,6 +9,11 @@ body {
 	padding: 2em;
 	}
 	
+img {
+	display:block;
+	max-width:100%;
+	max-height:20em;
+	margin: auto;}	
 h1, h2 {
 	font-family:"Quicksand", "arial", sans-serif;
 }
@@ -65,6 +70,7 @@ article.main {
 	height:30em;
 	background-image: url('../assets/strange_bullseyes.png');
 	border: 1px dotted #D9D1CF;
+	overflow: hidden;
 	clear:both;
 	}
 article p {
