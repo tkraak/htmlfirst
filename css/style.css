@@ -16,17 +16,16 @@ img {
 	margin: auto;}	
 h1, h2 {
 	font-family:"Quicksand", "arial", sans-serif;
-}
+	}
 h1 {font-weight: 300;
 	font-size:3em;
-}
+	}
 h2 {font-weight:400;
 	font-size:1em;}
 h3, h4, p, li {
 	font-family:"rokkitt", times, serif;
 	line-height:1.5em;
-}
-p, li {font-weight:100;}
+	}
 a {
 	text-shadow:-1px -1px #D9D1CF;
 	text-decoration:none;
@@ -54,10 +53,10 @@ nav {
 	padding: .5em 2em;
 	margin: 0 -2em 2em -2em;
 	background-color:#E0DAD5;
-}
+	}
 nav ul {
 	margin: 0;
-}
+	}
 nav ul li {
 	float:right;
 	margin: 0 0 0 1em;
@@ -65,26 +64,30 @@ nav ul li {
 	line-height:1em;
 	font-size:1.3em;
 	}
-
-article.main {
+.spaced p {margin:2em 2em;}
+.main {
 	max-height:30em;
 	background-image: url('../assets/strange_bullseyes.png');
 	border: 1px dotted #D9D1CF;
 	overflow: hidden;
-	clear:both;
 	}
-article p {
-	margin:2em;
-	}
-article.column-one, article.column-two {
+	
+.column-one, .column-two {
 	width:47%;
-	height:15em;
+	height:fit-content;
+	min-height:10em;
 	background-color:#f5f5f5;
 	float:left;
 	margin-top:2em;
 	margin-bottom:2em;
 	clear:right;
 	}
-article.column-one {
+.column-one {
 	margin-right:6%;
+	}
+.full {
+	background-color:#f5f5f5;
+	width:100%;
+	height: fit-content;
+	clear:both;
 	}
