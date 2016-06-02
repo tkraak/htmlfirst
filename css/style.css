@@ -67,7 +67,7 @@ nav ul li {
 	}
 
 article.main {
-	height:30em;
+	max-height:30em;
 	background-image: url('../assets/strange_bullseyes.png');
 	border: 1px dotted #D9D1CF;
 	overflow: hidden;
