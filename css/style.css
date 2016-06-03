@@ -88,21 +88,21 @@ nav ul li {
 	}
 	
 
-.spaced p {margin:2em 2em;}
 .main {
 	max-height:30em;
 	background-image: url('../assets/strange_bullseyes.png');
-	
 	overflow: hidden;
 	margin-bottom:2em;
+  padding: 2em;
 	}	
 .column-one, .column-two {
-	width:47%;
+	width:39%;
 	height:fit-content;
 	min-height:10em;
 	background-color:#f5f5f5;
 	float:left;
 	margin-bottom:2em;
+  padding: 2em;
 	}
 .column-one {
 	margin-right:6%;
@@ -110,9 +110,9 @@ nav ul li {
 .helpme {
 	background-color:#f5f5f5;
 	border:1px solid #f5f5f5;
-	width:100%;
 	height:fit-content;
 	margin-bottom:2em;
+  padding: 2em;
 	position:relative;
 	}
 .full {
